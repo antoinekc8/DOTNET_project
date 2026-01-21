@@ -244,9 +244,11 @@ def plot_accessibility_map_with_basemap(zones_gdf, accessibility_series, mode_na
     Returns:
         fig, ax: Matplotlib figure and axis objects.
     """
+    if zones_gdf.crs is None:
+        zones_gdf.set_crs("EPSG:4326", inplace=True)
 
     if basemap_source is None:
-        basemap_source = cx.providers.CartoDB.DarkMatter
+        basemap_source = cx.providers.CartoDB.Positron
 
     if verbose:
         print(f"\n  Plotting {mode_name} {measure_name} map with basemap...")
@@ -284,10 +286,11 @@ def plot_accessibility_map_with_basemap(zones_gdf, accessibility_series, mode_na
         }
     )
 
+    
     # Add basemap after plotting zones
     cx.add_basemap(
         ax,
-        crs='WGS84',
+        crs=zones_gdf.crs.to_string(),
         source=basemap_source
     )
 
