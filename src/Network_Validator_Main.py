@@ -119,4 +119,4 @@ def main(network_name='.'):
 
 
 if __name__ == "__main__":
-    main('16_San_Francisco')
+    main('../data/')
