@@ -13,7 +13,7 @@ import DTALite
 
 flag_Run_Accessibility_Checking=True
 flag_Run_exe=False
-template_path='GMNS_Tools/Accessibility_checking_tools'
+template_path='../GMNS_Tools/Accessibility_checking_tools'
 
 def wait_for_file(file_path, timeout=60, check_interval=1):
     """
