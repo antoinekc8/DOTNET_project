@@ -1,0 +1,27 @@
+{
+  "discount_rate": 0.04,
+  "evaluation_horizon": 20,
+  "value_of_time": 15.0,
+  "co2_price": 100,
+  "emission_factor_kg_per_km": 0.2,
+  "avg_trip_length_km": 8.0,
+  "mca_weights": {
+    "npv": 0.4,
+    "bcr": 0.3,
+    "time_savings": 0.2,
+    "co2_reduction": 0.1
+  },
+  "scenarios": {
+    "capacity": {
+      "capex": 5000000,
+      "opex": 150000,
+      "capacity_increase": 0.2
+    },
+    "brt": {
+      "capex": 1000000,
+      "opex": 300000,
+      "mode_shift": 0.2,
+      "lane_capacity_reduction": 0.15
+    }
+  }
+}
