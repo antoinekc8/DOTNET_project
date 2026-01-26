@@ -22,11 +22,15 @@ DOTNET/
 
 ├── data/               <-- Create this folder and put downloaded files here
 
+├── data_preprocessed/  <-- Preprocessed datas will appear here after running the preprocessing notebook 
+
 ├── GMNS_Tools/         <-- Do not modify
 
 ├── notebook/           <-- Jupyter Notebooks
 
 ├── src/                <-- Do not modify
+
+├── results/            <-- Generated results will appear here
 
 ├── .gitignore          <-- Do not modify
 
@@ -46,3 +50,4 @@ You **must** execute **"Run All"** in this notebook to prepare the data for the 
 
 ### Step 2: Analysis
 Once the preprocessing is complete, you may proceed to open and run the other notebooks located in the `notebook` directory.
+
