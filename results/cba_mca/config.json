@@ -17,11 +17,18 @@
       "opex": 150000,
       "capacity_increase": 0.2
     },
-    "brt": {
-      "capex": 1000000,
-      "opex": 300000,
-      "mode_shift": 0.2,
-      "lane_capacity_reduction": 0.15
+    "signals": {
+      "capex": 800000,
+      "opex": 50000,
+      "delay_reduction": 0.12,
+      "capacity_improvement": 0.08
+    },
+    "lez": {
+      "capex": 700000,
+      "opex": 250000,
+      "demand_reduction": 0.1,
+      "top_od_fraction": 0.3,
+      "emission_factor_multiplier": 1.0
     }
   }
 }
