@@ -12,7 +12,7 @@ To set up the project environment and dependencies, please refer to the **[INSTA
 Before running any code, you must manually download the dataset and place it in the correct directory.
 
 1.  Create a folder named `data` at the root of the project.
-2.  Download the **Milwaukee** dataset files from the following link:
+2.  Download the 3 **Milwaukee** dataset files from the following link (node, link, demand):
     [GMNS_Plus_Dataset - Milwaukee (GitHub)](https://github.com/HanZhengIntelliTransport/GMNS_Plus_Dataset/tree/main/28_Milwaukee)
 3.  Place the downloaded files inside the `/data/` folder.
 
@@ -50,4 +50,5 @@ You **must** execute **"Run All"** in this notebook to prepare the data for the 
 
 ### Step 2: Analysis
 Once the preprocessing is complete, you may proceed to open and run the other notebooks located in the `notebook` directory.
+
 
