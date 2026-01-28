@@ -23,15 +23,9 @@ conda activate GMNS_Plus_Dataset
 Install the required Python packages using `pip`:
 
 ```bash
-pip install pandas scikit-learn DTALite
+pip install ipykernel pandas geopandas scikit-learn DTALite numpy matplotlib networkx contextily shapely branca folium seaborn
 ```
 
-If you prefer using `conda` for pandas and scikit-learn:
-
-```bash
-conda install pandas scikit-learn -y
-pip install DTALite
-```
 
 ---
 
