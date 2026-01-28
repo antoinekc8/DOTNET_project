@@ -43,7 +43,7 @@ DOTNET/
 **Important:** There is a strict order of operations for running the notebooks.
 
 ### Step 1: Preprocessing
-Navigate to the `notebook` directory and open **`preprocessing.ipynb`**.
+Navigate to the `notebook` directory and open **`1. Preprocessing.ipynb`**.
 You **must** execute **"Run All"** in this notebook to prepare the data for the rest of the project.
 
 > ⚠️ **Warning:** Do not skip this step. The other notebooks rely on the outputs generated here.
